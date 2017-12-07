@@ -1,8 +1,3 @@
-/*Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 body{
 	font-family: 'Montserrat', sans-serif;
 }
@@ -230,7 +225,7 @@ a.view {
 i.arrow-rt1 {
 	width: 50px;
 	height: 48px;
-	background: url(../images/img-sprite.png)no-repeat -200px -2px;
+	background: url(../assets/img-sprite.png)no-repeat -200px -2px;
 	display: inline-block;
 	position: absolute;
 	top: 0px;
@@ -359,12 +354,12 @@ i.arrow-rt1 {
 .nbs-flexisel-nav-left {
 	left:1em;
 	top: 169px;
-	background: url(../images/img-sprite.png) no-repeat -153px -12px;
+	background: url(../assets/img-sprite.png) no-repeat -153px -12px;
 }
 .nbs-flexisel-nav-right {
 	right:1em;
 	top: 169px;
-	background: url(../images/img-sprite.png) no-repeat -178px -11px;
+	background: url(../assets/img-sprite.png) no-repeat -178px -11px;
 }
 /*-- flexisel --*/
 .customer-1{
@@ -419,7 +414,7 @@ ul.wmuSliderPagination {
 	width:19px;
 	height:29px;
 	text-indent: -9999px;
-	background: url(../images/img-sprite.png)no-repeat ;
+	background: url(../assets/img-sprite.png)no-repeat ;
 	top:35%;
 	z-index: 2;
 	cursor: pointer;
@@ -678,7 +673,7 @@ ul.wmuSliderPagination {
 i.fb {
 	width: 42px;
 	height: 42px;
-	background: url(../images/img-sprite.png)no-repeat -7px -6px;
+	background: url(../assets/img-sprite.png)no-repeat -7px -6px;
 	display: inline-block;
 }
 i.fb:hover {
@@ -687,7 +682,7 @@ i.fb:hover {
 i.twt {
 	width: 42px;
 	height: 42px;
-	background: url(../images/img-sprite.png)no-repeat -55px -6px;
+	background: url(../assets/img-sprite.png)no-repeat -55px -6px;
 	display: inline-block;
 }
 i.twt:hover {
@@ -696,7 +691,7 @@ i.twt:hover {
 i.paa {
 	width: 42px;
 	height: 42px;
-	background: url(../images/img-sprite.png)no-repeat -103px -6px;
+	background: url(../assets/img-sprite.png)no-repeat -103px -6px;
 	display: inline-block;
 }
 i.paa:hover {
@@ -727,7 +722,7 @@ i.paa:hover {
 	height: 48px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/arrow.1.png) no-repeat 0px 0px;
+	background: url(../assets/arrow.1.png) no-repeat 0px 0px;
 }
 #toTop:hover{
 	outline: none;
