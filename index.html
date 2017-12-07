@@ -21,7 +21,7 @@
     <div class="container">
       <div class="header">
         <div class="menu">                        
-            <a href="#" class="right_bt" id="activator"><img src="images/menu.png" alt=""/></a>
+            <a href="#" class="right_bt" id="activator"><img src="assets/logoBig.png" alt=""/></a>
               <div class="box" id="box">
                 <div class="box_content">
                    <div class="menu_box_list">
@@ -271,9 +271,9 @@
            <h6>George Richard</h6>
            <p>Great food menu is awesome,there foods are not only great but also in the right price.i'll highly recommend:)</p>
            <ul>
-            <li><img src="images/9.png" class="img-responsive" alt="" /></li>
-            <li><img src="images/10.png" class="img-responsive" alt="" /></li>
-            <li><img src="images/11.png" class="img-responsive" alt="" /></li>
+            <li><img src="/assets/customers/p1.png" class="img-responsive" alt="" /></li>
+            <li><img src="/assets/customers/p2.png" class="img-responsive" alt="" /></li>
+            <li><img src="/assets/customers/p3.png" class="img-responsive" alt="" /></li>
           </ul>
         </article>
          <article style="position: absolute; width: 100%; opacity: 0; height: 240px;"> 
@@ -349,7 +349,7 @@
           <li><a href="#"><i class="paa"></i></a></li>
             <div class="clearfix"></div>
         </ul>
-        <p>Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+       
     </div>
   </div>
   <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>
@@ -359,6 +359,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
     <script src="js/scripts.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+        });
+      });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        /*
+        var defaults = {
+        containerID: 'toTop', // fading element id
+        containerHoverID: 'toTopHover', // fading element hover id
+        scrollSpeed: 1200,
+        easingType: 'linear' 
+        };
+        */
+    $().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
   </body>
 </html>
